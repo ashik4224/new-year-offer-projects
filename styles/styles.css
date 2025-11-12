@@ -2,7 +2,6 @@
 
 body{
     font-family: "Merriweather", serif;
-    margin-bottom: 100px;
 }
 /* banner styles */
 .banner {
@@ -335,4 +334,45 @@ button{
   border: 1px solid #FF0000;
   background-color: #FF0000;
    border-radius: 0 50px 50px 0;
+}
+
+/* footer section styles */
+footer{
+  width: 1320px;
+  height: 709px;
+  background-color: #070211;
+  color: white;
+  margin: 0 auto;
+}
+
+.foot{
+  display: flex;
+  justify-content: space-around;
+}
+
+.adders{
+  margin-top: 100px;
+}
+
+.img-foot{
+  margin-top: 60px;
+}
+
+footer > hr{
+  margin: 100px;
+  opacity: 0.5;
+}
+
+.icon{
+  display: flex;
+  gap: 30px;
+  margin-left: 500px;
+  
+}
+
+.close{
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  margin: 40px 40px;
 }
