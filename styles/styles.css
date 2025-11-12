@@ -208,3 +208,131 @@ body{
 .title-discription{
   opacity: 0.6;
 }
+
+/* Sele section styls */
+
+.sele{
+  width: 1320px;
+  height: 983px;
+  margin: 0 auto;
+}
+
+.sele-img-main{
+  display: flex;
+  gap: 40px;
+}
+
+.sele-title{
+  text-align: center;
+
+}
+
+.subtitle{
+  font-size: 15px;  
+  font-family: "Inter", sans-serif;
+}
+
+.sele-title span{
+  color: #FF0000;
+}
+
+.sele-title-1{
+  font-size: 72px;
+  font-weight: bolder;
+}
+
+.sele-discription{
+  font-size: 15px;
+  opacity: 0.6  ;
+}
+
+
+.img-1{
+  width: 600px;
+  height: 500px;
+  margin: 20px;
+
+}
+.img-2{
+  width: 305px;
+  height: 305px;
+  margin-left: 200px;
+  margin-top: 150px;
+}
+
+/* img-section styles */
+
+.main-img-section{
+  width: 1320px;
+  height: 1163px;
+  margin: 100px auto;
+  
+}
+
+.main-img-section img{
+  margin: 5px;
+}
+
+.img-subtitle{
+  font-size: 16px;
+  color: #FF0000;
+  font-family: "Inter", sans-serif;
+}
+.img-title{
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.img-discription{
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  
+}
+
+/* email section styles */
+.email{
+  width: 1320px;
+  height: 616px;
+  background-color: #efcbcb;
+  margin: 0 auto;
+
+}
+
+.email-section{
+  text-align: center;
+  display: inline;
+  /* flex-direction: column; */
+}
+.email-section img{
+  margin-left: 600px;
+  margin-top: 100px;
+  
+}
+
+.email-title{
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.email-discription{
+  font-size: 15px;
+  color: #0a0318;
+}
+
+
+input{
+  padding: 12px 20px;
+  text-align: start;
+  border: 1px solid white;
+  border-radius: 20px;
+  border-radius: 50px 0 0 50px;
+  margin-left: 20px;
+}
+
+button{
+  padding: 12px 25px;
+  color: white;
+  border: 1px solid #FF0000;
+  background-color: #FF0000;
+   border-radius: 0 50px 50px 0;
+}
